@@ -1,0 +1,11 @@
+{
+  "name": "mario",
+  "description": "Mario is a radically simple task runner.",
+  "version": "0.1.0",
+  "author": "roll",
+  "author_email": "roll@post.agency",
+  "repository": "https://github.com/inventive-ninja/mario-py",
+  "license": "MIT",
+  "keywords": "",
+  "classifiers": []
+}

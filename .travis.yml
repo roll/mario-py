@@ -1,0 +1,32 @@
+sudo:
+  false
+
+language:
+  python
+
+python:
+  - 2.7
+  - 3.3
+  - 3.4
+  - 3.5
+
+env:
+  global:
+    - TOXENV="py${PYTHON_VERSION//./}"
+
+install:
+  - pip install --upgrade -r requirements.dev.txt
+
+script:
+  - python run.py check
+
+after_success:
+  - python run.py report
+
+deploy:
+  provider: pypi
+  user: roll
+  password:
+    secure: SEjS+hRbWI5JanoMAmUbr2a8X0doDIOQYAKqhA4uCVWiN4JhpmCrKDeyMsfVmEalesqujaWDqs9pUt4H/ipbsFqh9uAskSo4yuve1SseCM3cUYkIEzIW8ljqMpvSEK3M/WcKSTP4CR8mxuq/6IUDYnjVFAOIUQiQQTDBXoXvSaBJ0I6GntFR9K/jGmxqRCbSFHPGeZqrepdYfo+kkkOrWRo85x9GoNecXc0mc47aEWV6p1EyPQkpfEk+n+IlpZ7quiYT0GAkE4QIjvFeOQR389ffDMhliBw5eJekl81nvsCoCeVN/oxiidOh/L9jlXDV3FzHHIf0m73oLofx6/SrcqxIdipbpGSoEKaMxrz3Bn7RG5aCb0Sl451qQDOcnVfyhi3qoWesNYg+kaB3Oa+kXXkNADRYMZdw235yEDpHGStq2QggQcTK2nW0BlHlIzwtho2Xc7mQS1XPXRBFhYwrMVcearHVRbmA9WUHxFQVcZcdHrv2qyKv9jVykLV8wy2HKBwGrUMalUB+KdWJehPZStRAwPLnzFV35LPCpFhIPJBlMmAkZhH5buYDGavotaT69vUC8OWF2FLLCEH8tWRvZgACWltdxtSMj2R5BK7xVBHsgIL6h7tBhzwkL+fZNZ1G0S+L0V404ZOXBmrA9bc8kgGBcRZ/oBcGy9aiAEWKP40=
+  on:
+    tags: true

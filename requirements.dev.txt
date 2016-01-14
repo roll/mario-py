@@ -1,0 +1,9 @@
+-r requirements.txt
+pyyaml
+pylama
+tox
+mock
+pytest
+pytest-cov
+coverage
+coveralls

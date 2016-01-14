@@ -1,0 +1,14 @@
+# Tasks
+
+check:
+  - review
+  - test
+
+report:
+  coveralls
+
+review:
+  pylama mario
+
+test:
+  PACKAGE=mario tox
