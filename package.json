@@ -7,5 +7,6 @@
   "repository": "https://github.com/inventive-ninja/mario-py",
   "license": "MIT",
   "keywords": "",
-  "classifiers": []
+  "classifiers": [],
+  "console_scripts": ["mario = mario:cli"]
 }

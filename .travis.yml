@@ -18,10 +18,10 @@ install:
   - pip install --upgrade -r requirements.dev.txt
 
 script:
-  - python run.py check
+  - python -m mario.cli check
 
 after_success:
-  - python run.py report
+  - python -m mario.cli report
 
 deploy:
   provider: pypi

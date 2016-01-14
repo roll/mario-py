@@ -1,9 +1,9 @@
-# Run alias
-alias run='python run.py'
+# Mario alias
+alias mario='python -m mario.cli'
 
 # Git commit hook
 if [ ! -f .git/hooks/pre-commit ]; then
-    echo -e "#!/bin/sh\n\n\npython run.py check" > .git/hooks/pre-commit
+    echo -e "#!/bin/sh\n\n\npython -m mario.cli check" > .git/hooks/pre-commit
     chmod +x .git/hooks/pre-commit
 fi
 

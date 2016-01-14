@@ -3,12 +3,11 @@ graft examples
 graft tests
 
 include LICENSE.txt
+include mario.yml
 include package.json
-include pylama.ini
 include README.md
 include requirements.dev.txt
 include requirements.txt
-include run.py
 include tox.ini
 
 global-exclude *.py[cod]
