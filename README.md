@@ -48,4 +48,6 @@ $ mario sync_task
 
 ## Read more
 
-Please visit our developer hub to get docs, news and support - [https://supermario.readme.io/](https://supermario.readme.io/)
+Please visit our developer hub to get docs, news and support:
+
+[https://supermario.readme.io/](https://supermario.readme.io/)
