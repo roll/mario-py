@@ -47,6 +47,8 @@ $ mario sync_task
 
 ## Read more
 
-Please visit our developer's hub to get docs, news and support:
+Please visit Mario's developer hub to get docs, news and support:
 
-[>> Mario's developers hub](https://supermario.readme.io/)
+[Developer Hub](https://supermario.readme.io/)
+
+Thanks!
