@@ -13,6 +13,12 @@ Radically simple task runner.
 
 ## Example
 
+Install mario package:
+
+```
+$ pip install mario
+```
+
 Save the following code as `mario.yml`:
 
 
