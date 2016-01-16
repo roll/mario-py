@@ -7,9 +7,8 @@ Radically simple task runner.
 
 ## Features
 
-- radically simple
-- run shell commands
 - YAML-based format
+- run shell commands
 - sync/async invocation
 
 ## Example
@@ -50,4 +49,4 @@ $ mario sync_task
 
 Please visit our developer hub to get docs, news and support:
 
-[https://supermario.readme.io/](https://supermario.readme.io/)
+[Mario's developer hub](https://supermario.readme.io/)
