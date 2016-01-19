@@ -57,4 +57,10 @@ Please visit Mario's developer hub to get docs, news and support:
 
 [Developer Hub](https://supermario.readme.io/)
 
+## Contributing
+
+Please read the contribution guideline:
+
+[How to Contribute](CONTRIBUTING.md)
+
 Thanks!
