@@ -48,7 +48,7 @@ setup(
     description='Mario is a radically simple task runner.',
     author='roll',
     author_email='roll@post.agency',
-    url='https://github.com/inventive-ninja/mario-py',
+    url='https://github.com/inventive-ninja/mario',
     license='MIT',
     keywords=[
         'task runner',
