@@ -15,13 +15,16 @@ env:
     - TOXENV="py${PYTHON_VERSION//./}"
 
 install:
-  - pip install -Urrequirements.dev.txt
+  - make develop
+  - pip install coveralls
 
 script:
-  - python -m mario.cli check
+  # FIXME: configure linter
+  # - make lint
+  - make test
 
 after_success:
-  - python -m mario.cli report
+  - coveralls
 
 deploy:
   provider: pypi

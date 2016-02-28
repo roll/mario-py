@@ -1,14 +1,6 @@
-graft mario
-graft examples
-graft tests
-
-include LICENSE.txt
-include mario.yml
-include package.json
+global-include VERSION
+include LICENSE.md
+include Makefile
+include pylintrc
 include README.md
-include requirements.dev.txt
-include requirements.txt
 include tox.ini
-
-global-exclude *.py[cod]
-global-exclude __pycache__/*
