@@ -2,6 +2,9 @@
 
 [![Travis](https://img.shields.io/travis/inventive-ninja/mario.svg)](https://travis-ci.org/inventive-ninja/mario)
 [![Coveralls](http://img.shields.io/coveralls/inventive-ninja/mario.svg?branch=master)](https://coveralls.io/r/inventive-ninja/mario?branch=master)
+[![PyPi](https://img.shields.io/pypi/v/mario.svg)](https://pypi.python.org/pypi/mario)
+[![Waffle](https://img.shields.io/badge/board-waffle-brightgreen.svg)](https://waffle.io/inventive-ninja/inventive.ninja)
+[![Gitter](https://img.shields.io/badge/chat-gitter-brightgreen.svg)](https://gitter.im/inventive-ninja/public)
 
 Radically simple task runner.
 
